@@ -1,9 +1,11 @@
 CXXFLAGS += -O3 -Wall -shared -std=c++11 -fPIC -fdiagnostics-color
-CPPFLAGS += $(shell python3 -m pybind11 --includes)
-LIBNAME = helpers
-LIBEXT = $(shell ~/.pyenv/versions/3.10.12/bin/python3-config --extension-suffix)
+CPPFLAGS  += $(shell python3 -m pybind11 --includes)
+# 
+LIBNAME   = helpers_cpp
+# 
+LIBEXT    = $(shell python3-config --extension-suffix)
 
 default: $(LIBNAME)$(LIBEXT)
 
-%$(LIBEXT): %.cpp
-	$(CXX) $(CXXFLAGS) $(CPPFLAGS) $< -o $@
+$(LIBNAME)$(LIBEXT): helpers.cpp
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) helpers.cpp -o $@
