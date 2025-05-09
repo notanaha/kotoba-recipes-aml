@@ -3,8 +3,6 @@
 import sys
 import os
 
-os.makedirs(os.path.join('outputs','cache'), exist_ok=True)
-
 #current_path: str = os.getcwd()
 #sys.path.append(f"{current_path}/src")
 #sys.path.append(current_path)
