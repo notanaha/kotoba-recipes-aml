@@ -179,6 +179,7 @@ streamlit/downloads/**
 **/.env
 *.amltmp
 .amlignore
+.amlignore.amltmp
 .env*
 wikidump/**
 ./config.json

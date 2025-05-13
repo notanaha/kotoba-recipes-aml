@@ -1,6 +1,5 @@
 # Kotoba Recipes for AzureML
 
-
 This forked repository modifies the original to enable the training script to run on an Azure ML compute cluster.
 <br>Please refer to the README file in the azureml folder.
 <br>The following files were added to support execution on AzureML.
@@ -23,7 +22,6 @@ This forked repository modifies the original to enable the training script to ru
 
 <br>
 <hr />
-<br>
 
 # Kotoba Recipes
 
