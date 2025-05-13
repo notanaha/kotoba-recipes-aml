@@ -177,7 +177,7 @@ cython_debug/
 pdf/**
 streamlit/downloads/**
 **/.env
-*.amltmps
+*.amltmp
 .amlignore
 .env*
 wikidump/**

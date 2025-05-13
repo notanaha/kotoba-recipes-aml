@@ -1,3 +1,30 @@
+# Kotoba Recipes for AzureML
+
+
+This forked repository modifies the original to enable the training script to run on an Azure ML compute cluster.
+<br>Please refer to the README file in the azureml folder.
+<br>The following files were added to support execution on AzureML.
+<ul>
+  <li>wikidump.ipynb
+    <ul>
+      <li>A sample scipt for creating a sample wiki training dataset</li>      
+    </ul>
+  </il>
+  <li>prepare-index.ipynb
+    <ul>
+      <li>Generates a pair of idx and bin files</li>      
+    </ul>
+  <li>pretrain.ipynb
+    <ul>
+      <li>A sample training script</li>      
+    </ul>
+  </li>
+</ul>
+
+<br>
+<hr />
+<br>
+
 # Kotoba Recipes
 
 # Table of Contents
