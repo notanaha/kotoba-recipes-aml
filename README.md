@@ -3,14 +3,14 @@
 This forked repository modifies the original to enable the training script to run on an Azure ML compute cluster.
 <br>The following files were added to support execution on AzureML.
 
-- wikidump.ipynb
+- `wikidump.ipynb`
     - A sample scipt for creating a sample wiki training dataset
-- prepare-index.ipynb
+- `prepare-index.ipynb`
     - Generates a pair of idx and bin files
-- pretrain.ipynb
+- `pretrain.ipynb`
     - A sample training script
 
-<br>Refer to the README file in the **azureml** folder for the quick start.
+<br>Refer to the README in the **azureml** folder for the quick start.
 
 <br>
 <hr />
