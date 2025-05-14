@@ -6,6 +6,7 @@ This `azureml` folder is mounted on an Azure ML Compute Cluster.
 ## Running Pretraining on AzureML
 
 The training script `Pretrain.ipynb` has been confirmed to run on a **2-node** AzureML compute cluster using the `Standard_NC40ads_H100_v5`.
+<br>Currently, the job runs as a data-parallel distributed job.
 
 ### Preparing the Training Dataset
 
