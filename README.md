@@ -10,7 +10,7 @@ This forked repository modifies the original to enable the training script to ru
 - `pretrain.ipynb`
     - A sample training script
 
-<br>Refer to the README in the **azureml** folder for the quick start.
+<br>Refer to the [README](./azureml/README.md) in the **azureml** folder for the quick start.
 
 <br>
 <hr />
